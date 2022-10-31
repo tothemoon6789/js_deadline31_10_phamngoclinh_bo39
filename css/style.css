@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+section {
+    padding: 40px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+section input {
+    border: none !important;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+}
+section button {
+    max-width: 200px;
+    overflow: auto;
+}
+ul{
+    list-style: none;
+}
+ul li {
+   
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.active {
+    background-color: gray;
+    color: white;
+}
+ul li:not(.active){
+    color: white;
+    background-color: rgb(170, 165, 165);
+}
+ul li:not(.active):hover{
+    color: white;
+    background-color: gray;
+}
